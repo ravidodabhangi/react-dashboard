@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+.app,
+#root,
+.contents {
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body
+{
+  overflow: hidden;
+}
+.contents
+{
+  margin: 0px;
+}
+.app
+{
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+::-webkit-scrollbar-track
+{
+background: #e0e0e0;
+}
+::-webkit-scrollbar-thumb
+{
+background: #888;
+}
+
+::-webkit-scrollbar-track:hover
+{
+  background-color: #555;
+}
